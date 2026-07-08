@@ -1,66 +1,40 @@
-# ✈ Travel Booking Platform — White-Label Travel Booking Platform by Miracuves
+# Travel Booking Platform — White-Label OTA / Travel by Miracuves
 
-<div align="center">
-
-**Launch your own travel booking platform in 6 days - hotels, flights, packages, secure payments, fully branded.**
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Now-crimson?style=for-the-badge)](https://miracuves.com/travel-booking/)
-[![Get Quote](https://img.shields.io/badge/Get_Quote-Free_Consultation-black?style=for-the-badge)](https://miracuves.com/contact/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat_Now-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/919830009649)
-
-</div>
-
-<div align="center">
-<a href="https://miracuves.com/travel-booking/">
-<img src="https://miracuves.com/wp-content/uploads/2025/02/couple-with-luggage.webp" alt="Travel Booking Platform - Screenshot" width="800" style="border-radius:8px;max-width:100%;height:auto" />
-</a>
-</div>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Try_Now-e8344f?style=for-the-badge)](https://mxtravel.mimeld.com)
+[![Solution Page](https://img.shields.io/badge/Solution_Page-miracuves.com-0b0b10?style=for-the-badge)](https://miracuves.com/travel-booking/)
+[![Delivery](https://img.shields.io/badge/Go_Live-6_Working_Days-2ecc8f?style=for-the-badge)](https://miracuves.com/travel-booking/#pricing)
+[![Support](https://img.shields.io/badge/Support-60_Days_+_12mo_Updates-blue?style=for-the-badge)](https://miracuves.com/facts/)
 
 ---
 
 ## Table of Contents
 
-- [What Is a Travel Booking Platform?](#what-is)
-- [Why Choose Miracuves](#why-choose)
-- [Who Is This For](#who-for)
-- [How It Works](#how-it-works)
-- [Core Features](#features)
-- [All Modules](#modules)
-- [Tech Stack](#tech-stack)
-- [Revenue Streams](#revenue)
-- [Pricing](#pricing)
-- [Deployment Timeline](#timeline)
-- [Build vs Buy](#build-vs-buy)
-- [Market Opportunity](#market)
-- [FAQ](#faq)
-- [Related Solutions](#related)
+1. [Who Is This For?](#who-is-this-for)
+2. [How It Works](#how-it-works)
+3. [Core Features](#core-features)
+4. [Architecture](#architecture)
+5. [Revenue Streams](#revenue-streams)
+6. [What's Included](#whats-included)
+7. [Deployment Timeline](#deployment-timeline)
+8. [Why Not Build From Scratch?](#why-not-build-from-scratch)
+9. [Market Opportunity](#market-opportunity)
+10. [Client Testimonials](#client-testimonials)
+11. [FAQ](#faq)
+12. [Resources](#resources)
+13. [About Miracuves](#about-miracuves)
 
----
+## Live Demos
 
-## ✈ What Is a Travel Booking Platform?
+| Environment | URL | What you can test |
+|---|---|---|
+| Web Platform | [mxtravel.mimeld.com](https://mxtravel.mimeld.com) | Full experience in the browser |
+| Admin Dashboard | [Solution page → Demo](https://miracuves.com/travel-booking/#demo) | Users, content, plans, analytics |
 
-A **Travel Booking Platform** is a ready-to-deploy OTA platform - hotel booking, flight search, holiday packages - customized under your own brand.
+Demo credentials: [miracuves.com/travel-booking -> Demo section](https://miracuves.com/travel-booking/#demo)
 
-Every functional component is built, tested, and deployable from day one.
+## What Makes This Travel Booking Platform Different
 
-Instead of spending 6-12 months and $80,000+ building from scratch, Miracuves delivers a fully functional, scalable platform in **6 days**, starting at **$$2,899**, with complete source code ownership.
-
-Global travel booking market projected to reach **$1.2 trillion by 2030**.
-
----
-
-## Why Choose Miracuves for Your Travel Booking Platform?
-
-Choosing the right technology partner determines whether your launch succeeds or stalls. Here is what sets Miracuves apart:
-
-- 6-day delivery
-- Source code ownership
-- 3,900+ apps
-- 60 days support
-- Zero lock-in
-- White-label branding
-
----
+<!-- TODO: fill 3-5 vertical-specific differentiators -->
 
 ## Who Is This For?
 
@@ -101,7 +75,7 @@ Choosing the right technology partner determines whether your launch succeeds or
 
 ---
 
-## Advanced and AI-Powered Features
+## Advanced Features
 
 The platform integrates AI-powered features that reduce manual overhead and capture revenue opportunities:
 
@@ -110,7 +84,7 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## All Modules: Apps and Web Panels
+## Apps and Web Panels
 
 | Module | Description |
 |---|---|
@@ -119,7 +93,19 @@ The platform integrates AI-powered features that reduce manual overhead and capt
 
 ---
 
-## Tech Stack
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Flutter Apps<br/>Android · iOS] --> G[REST API<br/>Laravel Backend]
+    W[Web Platform<br/>Responsive] --> G
+    P[Partner Panel] --> G
+    AD[Admin Dashboard] --> G
+    G --> DB[(MySQL)]
+    G --> S3[Object Storage]
+```
+
+**Stack:**
 
 | Layer | Technology |
 |---|---|
@@ -142,7 +128,15 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Pricing and What Is Included
+## Security and Compliance
+
+- OTP-based authentication
+- SSL/TLS encrypted API communication
+- GDPR-ready data handling
+
+---
+
+## What's Included
 
 | Plan | Price | What You Get |
 |---|---|---|
@@ -161,6 +155,8 @@ The platform is engineered to generate revenue from day one through multiple com
 - Free 1-Year Updates
 
 ---
+**Pricing:** on request — see the [solution page](https://miracuves.com/travel-booking/#pricing).
+
 
 ## Deployment Timeline
 
@@ -177,15 +173,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Security and Compliance
-
-- OTP-based authentication
-- SSL/TLS encrypted API communication
-- GDPR-ready data handling
-
----
-
-## Build vs Buy Comparison
+## Why Not Build From Scratch?
 
 | Factor | Build from Scratch | Miracuves Solution |
 |---|---|---|
@@ -208,7 +196,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Successful Verticals Built on This Model
+## Successful Verticals
 
 - Flight booking
 - Hotel reservations
@@ -228,7 +216,7 @@ The platform is engineered to generate revenue from day one through multiple com
 
 ---
 
-## Frequently Asked Questions
+## FAQ
 
 **How much?**
 See pricing.
@@ -247,7 +235,7 @@ Yes.
 
 ---
 
-## Related Solutions from Miracuves
+## Related Solutions
 
 Explore our other white-label clone solutions:
 
@@ -256,6 +244,11 @@ Explore our other white-label clone solutions:
 - [Yatra Clone](https://github.com/Miracuves-Solutions/yatra-clone)
 
 ---
+
+## Resources
+
+- [Full Solution Page](https://miracuves.com/travel-booking/) — features, pricing, demos, FAQ
+
 
 ## Get Started
 
@@ -298,3 +291,22 @@ This product is independently developed by Miracuves. All product names, logos, 
 
 </div>
 
+
+*Keywords: travel booking platform, travel booking platform script, white label solution, laravel flutter app, clone script*
+
+
+
+---
+
+### Note on This Repository
+
+This repository is a product overview. The full source code is delivered to clients on purchase. For a hands-on evaluation, use the live demos above; credentials are public on the solution page.
+
+
+<!--
+=========================================================
+GENERATED FROM MIRACUVES NETFLIX-CLONE README TEMPLATE
+Canon: 6 working days, from $2,799 floor, 60 days support + 12 months updates.
+Never use 3 days. See https://miracuves.com/facts/ for audited claims.
+=========================================================
+-->
